@@ -33,7 +33,7 @@ const Contact = () => {
         "template_iqefklp",
         {
           from_name: form.name,
-          to_name: "Christopher Pascual Abella",
+          to_name: "Christopher Abella",
           from_email: form.email,
           to_email: "christopherdev9992@gmail.com",
           message: form.message,
