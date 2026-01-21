@@ -198,7 +198,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "06/2018 - 08/2019",
     points: [
-      "Accelerated core API enhancements with Node.js (NestJS) following senior engineer guidance; elevated API test coverage scores by 0% and decreased server response times by 150ms, as measured by Datadog.",
+      "Accelerated core API enhancements with Node.js (NestJS) following senior engineer guidance; increased API test coverage and decreased server response times by 150ms, as measured by Datadog.",
       "Fashioned responsive UIs with Tailwind CSS and React, resolving 80% of cross-browser compatibility issues and boosting average page load speed by 0% on mobile devices.",
       "Forged scalable data architecture using SQLite for local development environments and Snowflake for analytical workloads, enabling 10+ engineers to conduct efficient data analysis and reporting.",
       "Orchestrated microservice communication using Apache Kafka, achieving 99.99% uptime, and enhanced application responsiveness by optimizing Redis cache invalidation policies during peak traffic.",
