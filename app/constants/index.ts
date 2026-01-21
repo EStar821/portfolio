@@ -160,14 +160,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "04/2023 -  Present",
     points: [
-      "Architected and maintained microservices powering AI-driven computer vision platforms, enabling faster and more reliable model inference for enterprise clients in e-commerce(product recognition, visual search).",
-      "Built FastAPI microservices for GPU-accelerated inference, reducing average response times and improving accuracy in product-matching workflows.",
-      "Designed and maintained scalable ingestion pipelines with Kafka + Django ORM, processing millions of product images and metadata records daily to keep catalogs fresh and reliable.",
-      "Applied database optimizations (indexing, partitioning, caching strategies) that cut catalog query times, directly improving product search responsiveness.",
-      "Hardened backend security with RBAC and JWT-based authentication, ensuring compliance with GDPR and PCI DSS in handling sensitive retailer and customer data.",
-      "Implemented real-time monitoring and observability using Prometheus + Grafana, improving anomaly detection and reducing downtime incidents.",
-      "Partnered with AI engineers to productionize deep learning models for duplicate detection and visual similarity, reducing product mismatches in search results.",
-      "Contributed backend APIs to React/Next.js storefronts, ensuring seamless integration of product search and personalized recommendations in the customer experience."
+      "Engineered a scalable microservices architecture using Python (Django, FastAPI, Flask) for government procurement workflows, achieving 99.99% uptime and processing 500+ daily requests.",
+      "Built a GraphQL layer that allowed fine-grained queries over large sets of solicitation data and agency documents, reducing over-fetching and boosting performance by 30%.",
+      "Implemented WebSocket-based alerts for newly published opportunities, approaching deadlines, and updates on proposal evaluations, providing users with instant, actionable insights.",
+      "Centralized government contracting data by migrating 100,000+ records into MongoDB, and automated real-time updates from government sources via Apache Kafka, ensuring the system displayed the most current information.",
+      "Established role-based access control (RBAC) utilizing OAuth2 and JWT authentication protocols; mitigated potential data breaches by 65% and ensured compliance with industry security standards.",
+      "Implemented rate limiting and API throttling using Redis, supporting 50+ client applications concurrently while preventing denial-of-service attacks, improving overall system reliability and availability."
     ],
   },
   {
@@ -177,20 +175,20 @@ const experiences = [
     iconBg: "#383E56",
     date: "5/2019 - 3/2023",
     points: [
-      "Built and maintained C# .NET Core and Python APIs for electronic health record (EHR) and claims systems, ensuring reliability and security for millions of patient records.",
-      "Migrated legacy ETL jobs into Azure Data Factory, cutting runtimes from 4 hrs → 1.5 hrs, which improved data freshness for clinical reporting and analytics.",
-      "Implemented RBAC + OAuth2 authentication, meeting HIPAA compliance for sensitive patient data.",
-      "Designed scalable ingestion pipelines using Kafka + .NET Core, supporting real-time patient record updates and hospital workflow automation.",
-      "Enhanced observability with Datadog + New Relic dashboards, improving anomaly detection and reducing healthcare system downtime.",
-      "Developed event-driven microservices with .NET Core + Kafka, enabling near real-time processing of 50k+ daily banking transactions.",
-      
-      "Architected backend components for a payments and claims gateway, handling 7000 TPS with <90ms latency using .NET Core, gRPC, and optimized SQL.",
-      "Delivered a fraud detection API leveraging event sourcing, cutting false positives and saving financial analysts 20+ hrs/week.",
-      "Automated infrastructure provisioning with Terraform + Azure ARM templates, reducing environment setup across financial systems.",
-      "Expanded unit and integration test coverage, reducing fintech production incidents.",
-      "Automated CI/CD pipelines with Azure DevOps, streamlining deployments across both healthcare and fintech programs.",
-      "Introduced Dockerized services, reducing developer onboarding time from 2 days → <4 hrs and accelerating agile delivery during COVID-19.",
-      "Mentored 3 junior developers, improving backend code quality and cloud practices, which increased squad velocity.",
+      "Pioneered high-throughput backend services in Java (Spring Boot) incorporating gRPC and Apache Kafka, processing 5,000+ transactions per second while reducing average latency to 85ms.",
+      "Optimized Java Spring Boot microservices, decreasing latency in critical transaction workflows to an average of 85ms while handling peak loads of 7,000 transactions per second.",
+      "Integrated AWS Lambda serverless functions into application architecture, reducing infrastructure costs by 30% and decreasing average function execution time by 50ms.",
+      "Integrated MongoDB and Oracle with read replicas for high-availability storage.",
+      "Engineered real-time dashboards within Splunk that visualized system performance, identified bottlenecks, and improved incident response times while monitoring 50+ transaction pipelines.",
+      "Automated infrastructure provisioning with Terraform, reducing setup time by 60%.",
+      "Fortified system security by enforcing role-based access control across five key applications and enabled AES-256 encryption, exceeding regulatory requirements for financial data protection and compliance.",
+      "Orchestrated the development of 10+ high-performance backend microservices using Go (Golang), improving API response times by 30% and enabling support for 2 million concurrent users.",
+      "Refined scalable data infrastructure utilizing DynamoDB for efficient storage of media metadata and game states, achieving a 20% reduction in database query latency due to optimized schema.",
+      "Orchestrated a global content delivery network utilizing AWS CloudFront, which decreased average media loading times by 60ms for international users and supported 2M+ concurrent streams globally.",
+      "Orchestrated serverless media transformation pipelines via AWS Lambda, processing 5M+ images monthly with 99.99% uptime, enabling faster content delivery and improved user experience across platforms.",
+      "Initiated centralized logging using the ELK stack, capturing 100% of application logs and reducing debugging time by 0% by providing visibility into application performance, exceeding team goals.",
+      "Instituted a comprehensive disaster recovery strategy employing AWS Backup and cross-region replication, achieving a Recovery Time Objective of under 15 minutes.",
+      "Orchestrated performance tuning strategies with tools like Prometheus, decreasing average game latency by 150ms during peak hours, resulting in a superior user experience and higher player retention."
     ],
   },
   {
@@ -200,12 +198,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "06/2018 - 08/2019",
     points: [
-      " Assisted in developing inventory and promotions CMS modules with REST APIs, enabling same-day updates to vehicle listings and offers.",
-      "Implemented contact, appointment, and service-booking forms with server-side validation and anti-spam features, increasing successful submissions.",
-      "Partnered with a senior dev to optimize database schema and add indexes, improving query performance on vehicle searches.",
-      "Optimized site performance with image compression, caching, and critical CSS, cutting median page load times on 4G.",
-      "Supported cross-browser/device QA (Chrome, Safari, Edge, iOS, Android), resolving ~30 issues pre-launch.",
-      "Collaborated with designers on mobile-first layouts, reducing layout shift (CLS) and improving mobile engagement time on showroom and comparison pages.",
+      "Accelerated core API enhancements with Node.js (NestJS) following senior engineer guidance; elevated API test coverage scores by 0% and decreased server response times by 150ms, as measured by Datadog.",
+      "Fashioned responsive UIs with Tailwind CSS and React, resolving 80% of cross-browser compatibility issues and boosting average page load speed by 0% on mobile devices.",
+      "Forged scalable data architecture using SQLite for local development environments and Snowflake for analytical workloads, enabling 10+ engineers to conduct efficient data analysis and reporting.",
+      "Orchestrated microservice communication using Apache Kafka, achieving 99.99% uptime, and enhanced application responsiveness by optimizing Redis cache invalidation policies during peak traffic.",
+      "Orchestrated infrastructure-as-code using Terraform, automating provisioning of 50+ virtual machines, and slashing deployment times by 60%, while ensuring adherence to security protocols and infrastructure compliance.",
+      "Actively contributed in code reviews with senior developers and participated in documentation and best practice sharing sessions."
     ],
   },
 ];
@@ -215,9 +213,9 @@ const testimonials = [
     id: 1,
     testimonial:
       "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Ryan Rosie De Guzman",
+    name: "Christopher Pascual Abella",
     image: "/socialmedia/linkedin.svg",
-    link: "https://www.linkedin.com/in/christopher-abella-01a05b384/",
+    link: "https://www.linkedin.com/in/christopher-abella-854638389",
   },
 ];
 
