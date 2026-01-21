@@ -186,7 +186,7 @@ const experiences = [
       "Refined scalable data infrastructure utilizing DynamoDB for efficient storage of media metadata and game states, achieving a 20% reduction in database query latency due to optimized schema.",
       "Orchestrated a global content delivery network utilizing AWS CloudFront, which decreased average media loading times by 60ms for international users and supported 2M+ concurrent streams globally.",
       "Orchestrated serverless media transformation pipelines via AWS Lambda, processing 5M+ images monthly with 99.99% uptime, enabling faster content delivery and improved user experience across platforms.",
-      "Initiated centralized logging using the ELK stack, capturing 100% of application logs and reducing debugging time by 0% by providing visibility into application performance, exceeding team goals.",
+      "Initiated centralized logging using the ELK stack, capturing 100% of application logs and reducing debugging time by 30% by providing visibility into application performance, exceeding team goals.",
       "Instituted a comprehensive disaster recovery strategy employing AWS Backup and cross-region replication, achieving a Recovery Time Objective of under 15 minutes.",
       "Orchestrated performance tuning strategies with tools like Prometheus, decreasing average game latency by 150ms during peak hours, resulting in a superior user experience and higher player retention."
     ],
@@ -199,7 +199,7 @@ const experiences = [
     date: "06/2018 - 08/2019",
     points: [
       "Accelerated core API enhancements with Node.js (NestJS) following senior engineer guidance; increased API test coverage and decreased server response times by 150ms, as measured by Datadog.",
-      "Fashioned responsive UIs with Tailwind CSS and React, resolving 80% of cross-browser compatibility issues and boosting average page load speed by 0% on mobile devices.",
+      "Fashioned responsive UIs with Tailwind CSS and React, resolving 80% of cross-browser compatibility issues and boosting average page load speed by 20% on mobile devices.",
       "Forged scalable data architecture using SQLite for local development environments and Snowflake for analytical workloads, enabling 10+ engineers to conduct efficient data analysis and reporting.",
       "Orchestrated microservice communication using Apache Kafka, achieving 99.99% uptime, and enhanced application responsiveness by optimizing Redis cache invalidation policies during peak traffic.",
       "Orchestrated infrastructure-as-code using Terraform, automating provisioning of 50+ virtual machines, and slashing deployment times by 60%, while ensuring adherence to security protocols and infrastructure compliance.",
